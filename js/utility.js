@@ -27,6 +27,9 @@ function getRandomColor() {
     }
     return color;
 }
+
+
+//function of mouseover
 function color (elementId){
     const card = document.getElementById(elementId);
     card.addEventListener('mouseover', function(){
@@ -36,6 +39,8 @@ function color (elementId){
       card.style.backgroundColor = 'white';
     });
 }
+
+//code for card mouseovers
 color('triangle-card');
 color('rectangle-card');
 color('parallelogram-card');
