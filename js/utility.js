@@ -4,8 +4,8 @@ function displayData(triangleName, triangleArea){
     tr.innerHTML = `
     <th>${count}</th>
     <td>${triangleName}</td>
-    <td>${triangleArea}</td>
-    <td><button class="btn btn-info">Convert To M</button></td>
+    <td>${triangleArea}<span> cm<sup>2</sup></span</td>
+    <td><button class="btn btn-info">Convert To M <sup>2</sup> </button></td>
     `;
     const tbl = document.getElementById('tbl-container')
     tbl.appendChild(tr);
