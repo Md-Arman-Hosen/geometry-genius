@@ -1,4 +1,5 @@
 
+
 let count = 0;
 document.getElementById('triangle-btn').addEventListener('click', function () {
     const triangleName = document.getElementById('triangle-name').innerText;
